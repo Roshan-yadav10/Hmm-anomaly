@@ -1,0 +1,37 @@
+{
+  "n_states": 3,
+  "threshold": -5.33607748499087,
+  "window": 20,
+  "point_precision": 0.902,
+  "point_recall": 0.657,
+  "point_f1": 0.76,
+  "window_auc_roc": 0.8,
+  "false_positive_rate": 0.008,
+  "events_detected": "3/4",
+  "events": [
+    {
+      "start": 400,
+      "end": 460,
+      "kind": "temperature_drift",
+      "detected": true
+    },
+    {
+      "start": 900,
+      "end": 950,
+      "kind": "vibration_burst",
+      "detected": true
+    },
+    {
+      "start": 1400,
+      "end": 1460,
+      "kind": "stuck_sensor",
+      "detected": false
+    },
+    {
+      "start": 1800,
+      "end": 1840,
+      "kind": "impossible_combo",
+      "detected": true
+    }
+  ]
+}
